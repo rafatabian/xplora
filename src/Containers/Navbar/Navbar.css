@@ -1,0 +1,115 @@
+.navbar_and_name_conteiner{
+    width: 100%;
+    height: 70px;
+    background-color:#e6e6e6d2;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+    position: fixed;
+    z-index: 99;
+}
+.navbar_background_white{
+    background-color: rgb(255, 255, 255);
+    z-index: 99;
+    transition: 0.3s ease;
+}
+.navbar_name{
+    flex:0.2 ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.navbar_logo{
+    width: 60px;
+}
+.navbar_and_name_conteiner h1{
+    font-family: var(--title-name);
+    color: var(--red1);
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.navbar_container{
+    width: 100%;
+    height: 55%;
+    top: 0;
+    right: 0;
+}
+.navbar_links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: 1.5px solid black;
+}
+.navbar_links a {
+    margin: 0 10px;
+    padding: 3px 10px;
+    font-family: var(--title-name);
+    font-size: 15px;
+    font-weight:bold;
+    color: black;
+    transition:0.3s ease;
+    letter-spacing: -0.3px;
+}
+/* delete when make more pages */
+.home_svg{
+    color: var(--red1) !important;
+}
+/* delete up */
+
+.navbar_links a:hover{
+    color: var(--red1);
+}
+
+/* mobile version styles */
+.navbar_links svg{
+   width: 22px;
+   height: 22px;
+   position: absolute;
+   top:23px;
+   right: 23px;
+}
+.toggle_mobile_menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--off-white);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.toggle_mobile_menu svg{
+    z-index: 11;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    width: 22px;
+    height: 22px;
+    color: black;
+    display: block;
+}
+.hyde_menu{
+    display: none;
+}
+.normal_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+@media screen and (min-width: 1600px){
+    .navbar_and_name_conteiner{
+          padding: 0 10rem;
+} 
+}
+

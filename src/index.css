@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&family=Varela+Round&display=swap');
+
+
+:root{
+  /* fonts */
+  --roboto:'Roboto', sans-serif;
+  --title-name: 'Varela Round', sans-serif;
+  --adventure: 'Permanent Marker', cursive;
+
+  /* colors */
+   --off-white: #e6e6e6;
+   --yellow1: #e5e517;
+   --yellow2: #b3b312;
+   --red1: #e61739;
+   --red2: #b3122c;
+
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+  font-weight: unset;
+  text-decoration: none;
+}
+
