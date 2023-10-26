@@ -25,7 +25,6 @@ const aData = {
     "Yoga in the park",
     "Salsa dancing nights",
     "Volleyball tournaments",
-    "Whiskey tastings",
     "And more amazing local happenings!"
   ]
 }

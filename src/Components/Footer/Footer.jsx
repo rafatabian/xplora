@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer_go_to">
         <h3>Donwload the app</h3>
         <div className="footer_links_for_store">
-          <Link to="" >
+          <Link to="https://play.google.com/store/apps/details?id=com.xplora.app&hl=en&gl=US" >
             <img className="android_image" src={android} alt="android store" />
           </Link>
           <Link to="" >
@@ -23,7 +23,7 @@ const Footer = () => {
         <Link to="/">The app</Link>
         <Link to="/">FAQ's</Link>
         <Link to="/">Privacy Policy</Link>
-        <Link to="/">Join the Team</Link>
+        <Link to="/form">Join the Team</Link>
       </div>
 
         <p>&#169; 2023 Xplora | All Rights Reserved</p>
