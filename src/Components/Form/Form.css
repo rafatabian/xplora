@@ -6,7 +6,8 @@
     justify-content: center;
     flex-direction: column;
 
-    background: linear-gradient(112deg, rgba(255, 197, 116, 1) 0%, rgba(255, 255, 117, 1) 47%, rgba(255, 255, 255, 1) 50%, rgba(116, 243, 255, 1) 53%, rgba(116, 148, 255, 1) 100%);
+    /* background: linear-gradient(112deg, rgba(255, 197, 116, 1) 0%, rgba(255, 255, 117, 1) 47%, rgba(255, 255, 255, 1) 50%, rgba(116, 243, 255, 1) 53%, rgba(116, 148, 255, 1) 100%); */
+    background: linear-gradient(111deg, rgba(179, 179, 18, 1) 0%, rgba(229, 229, 23, 1) 25%, rgba(230, 230, 230, 1) 50%, rgba(230, 23, 57, 1) 75%, rgba(179, 18, 44, 1) 100%);
 }
 .form_container > h1,
 .form_container > p, 
@@ -36,6 +37,6 @@ position: absolute;
 bottom: 15vh;
 }
 .form_container a:hover{
-    background-color:var(--red1);
+    background:linear-gradient(to right, var(--yellow1), var(--red1));
 }
 
